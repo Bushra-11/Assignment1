@@ -86,3 +86,17 @@ table th {
 table td {
     background-color: #fff;
 }
+
+/* Gallery Section */
+
+.gallery {
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.gallery img {
+    width: 20%;
+    border-radius: 10px;
+}
+
