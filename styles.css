@@ -3,4 +3,13 @@ body {
     font-family: 'Comic Sans MS';
     background-color: #fffae6;
     color: #3c6382;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    background-color:#FBCB77;
+    padding: 30px;
+    text-align: center;
 }
