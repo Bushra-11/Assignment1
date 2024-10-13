@@ -13,3 +13,35 @@ header {
     padding: 30px;
     text-align: center;
 }
+
+header h1 {
+    font-size: 45px;
+    color: #fffae6;
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none; 
+    padding: 0;
+    margin: 20px 0 0;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+nav ul li a {
+    font-size: 22px;
+    text-decoration: none;
+    color: #fffae6;
+    padding: 12px 18px;
+    background-color: #EE6A43;
+    border-radius: 10px;
+}
+
+nav ul li a:hover {
+    background-color: #C70039;
+} 
