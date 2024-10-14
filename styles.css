@@ -104,8 +104,6 @@ table td {
 section#announcements {
     background-color: #FEC5E5;
     padding: 30px;
-    border-radius: 15px;
-
 }
 
 section#announcements h2 {
@@ -125,4 +123,34 @@ section#announcements p a {
 section#announcements p a:hover {
     text-decoration: underline;
     color: #2980B9;
+}
+
+/* Footer */
+footer {
+    background-color: #FBCB77;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    font-size: 18px;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+footer ul li {
+    display: inline;
+    margin: 10px;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
 }
