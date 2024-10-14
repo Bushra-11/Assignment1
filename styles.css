@@ -189,3 +189,64 @@ footer ul li a {
 footer ul li a:hover {
     text-decoration: underline;
 }
+
+/* Responsive Style for both mobile and desktop views */ 
+@media (max-width:768px) {
+    header h1 {
+        font-size: 36px;
+    }
+
+    nav ul li a {
+        font-size: 18px;
+        padding: 10px 15px;
+    }
+
+    section#welcome h2 {
+        font-size: 36px;
+    }
+
+    section#welcome p {
+        font-size: 18px;
+    }
+
+    .teacher-info {
+        flex-direction: column;
+    }
+
+    table th, table td {
+        font-size: 16px;
+    }
+
+    .gallery img {
+        width: 45%;
+        max-width: 120px;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 30px;
+    }
+
+    nav ul li a {
+        font-size: 16px;
+        padding: 8px 12px;
+    }
+
+    section#welcome h2 {
+        font-size: 30px;
+    }
+
+    section#welcome p {
+        font-size: 16px;
+    }
+
+    table th, table td {
+        font-size: 14px;
+    }
+
+    .gallery img {
+        width: 90%; 
+        max-width: 100px; 
+    }
+}
